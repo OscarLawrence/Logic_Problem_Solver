@@ -14,9 +14,9 @@ from axioms.logical_foundation import (
     LOGICAL_FOUNDATION, 
     enforce_logical_coherence,
     LogicalStatement, 
-    LogicalRule,
-    SafetyProof
+    LogicalRule
 )
+from axioms.safety_proof import SafetyProof
 
 class LogicEnforcementError(Exception):
     """Raised when logical coherence would be violated"""
